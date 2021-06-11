@@ -1,3 +1,9 @@
+# @company:     Mobilize.Net
+# @author:      Jonathan Fonseca-Vallejos
+# @description: This GitHub action helps building and deploying the OpenCSV Data Extraction Tool, 
+#               which is a tool that dumps data to CSV files taking SQL query files as input.
+#               The tool has been written in Java 8 an uses the OpenCSV parser library.
+
 # This workflow will build a Java project with Maven
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 

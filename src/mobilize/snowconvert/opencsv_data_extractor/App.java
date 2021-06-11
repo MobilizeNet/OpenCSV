@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 
 /**
- * OpenCSV Exporter connects to an Oracle database and performs an extraction of
- * data
+ * OpenCSV Exporter connects to a database and performs the extraction of data
  */
 public class App {
     private static ConnectionInfo connectionInfo = new ConnectionInfo();

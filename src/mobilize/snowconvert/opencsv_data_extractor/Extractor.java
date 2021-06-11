@@ -12,6 +12,9 @@ import java.sql.Statement;
 import com.opencsv.CSVWriterBuilder;
 import com.opencsv.ICSVWriter;
 
+/** Extractor establishes the connection to the database, executes the SQL query against the database, 
+ * and then dumps the data in a CSV file.
+*/
 public class Extractor {
     private ConnectionInfo connectionInfo;
     private String inputFile;
