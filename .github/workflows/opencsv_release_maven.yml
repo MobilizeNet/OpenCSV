@@ -45,7 +45,6 @@ jobs:
 
       - name: Prepare release
         run: |
-          cd OpenCSV/
           mvn -B release:prepare release:perform
         env:
           CI_DEPLOY_USERNAME: ${{ secrets.CI_DEPLOY_USERNAME }}
